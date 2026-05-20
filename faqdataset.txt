@@ -1,0 +1,11 @@
+Q: What crops can be grown in Loamy soil?
+A: Wheat, Rice, Corn, Soybean, Barley.
+
+Q: What crops can be grown in Sandy soil?
+A: Rice, Millet, Groundnut, Sunflower, Sorghum.
+
+Q: What is the market price of Rice?
+A: ₹1850 per quintal.
+
+Q: What is the market price of Cotton?
+A: ₹6000 per quintal.

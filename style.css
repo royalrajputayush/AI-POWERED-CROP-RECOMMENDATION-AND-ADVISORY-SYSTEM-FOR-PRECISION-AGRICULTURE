@@ -1,0 +1,9 @@
+body {
+    background-color: lightyellow;
+}
+
+.stButton>button {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}

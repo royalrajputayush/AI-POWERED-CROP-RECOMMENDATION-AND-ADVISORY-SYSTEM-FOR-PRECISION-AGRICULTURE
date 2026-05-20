@@ -1,0 +1,138 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+/* Basic Variables and Global Styles */
+:root {
+    --primary-color: #059669;
+    --primary-dark: #047857;
+    --primary-light: #ecfdf5;
+    --secondary-color: #d97706;
+    --background-color: #f8fafc;
+    --card-background: #ffffff;
+    --text-main: #0f172a;
+    --text-muted: #475569;
+    --border-color: #e2e8f0;
+    --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.08);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Inter', sans-serif;
+    color: var(--text-main);
+}
+
+/* Typography Overrides */
+h1, h2, h3 {
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+/* Custom Card Layouts */
+.advisory-card {
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+}
+
+.advisory-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    border-color: #cbd5e1;
+}
+
+.card-header-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+}
+
+.card-icon {
+    font-size: 28px;
+    background-color: var(--primary-light);
+    padding: 8px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-main);
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-body {
+    font-size: 15px;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+/* Streamlit Input Styling Adjustments */
+.stTextInput>div>div>input, .stNumberInput>div>div>input {
+    border: 1.5px solid var(--border-color) !important;
+    border-radius: 10px !important;
+    padding: 8px 12px !important;
+    font-family: 'Inter', sans-serif !important;
+    transition: border-color 0.2s ease !important;
+}
+
+.stTextInput>div>div>input:focus, .stNumberInput>div>div>input:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 2px var(--primary-light) !important;
+}
+
+/* Custom Buttons Styling */
+.stButton>button {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%) !important;
+    color: white !important;
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 600 !important;
+    border-radius: 12px !important;
+    border: none !important;
+    padding: 12px 28px !important;
+    font-size: 16px !important;
+    box-shadow: 0 4px 6px -1px rgb(5 150 105 / 0.2) !important;
+    transition: all 0.2s ease !important;
+    width: 100% !important;
+}
+
+.stButton>button:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 10px 15px -3px rgb(5 150 105 / 0.3) !important;
+}
+
+.stButton>button:active {
+    transform: translateY(1px) !important;
+}
+
+/* Badge Styles */
+.badge-value {
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 9999px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.badge-alert {
+    background-color: #fffbeb;
+    color: #b45309;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 9999px;
+    font-size: 14px;
+    display: inline-block;
+}

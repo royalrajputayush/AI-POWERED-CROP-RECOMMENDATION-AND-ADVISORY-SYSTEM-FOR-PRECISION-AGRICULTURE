@@ -1,0 +1,35 @@
+soil_type,crop
+Loamy,Wheat
+Loamy,Rice
+Loamy,Corn
+Loamy,Soybean
+Loamy,Barley
+Sandy,Rice
+Sandy,Millet
+Sandy,Groundnut
+Sandy,Sunflower
+Sandy,Sorghum
+Clay,Cotton
+Clay,Soybean
+Clay,Wheat
+Clay,Tobacco
+Clay,Potato
+Silty,Rice
+Silty,Cotton
+Silty,Sugarcane
+Silty,Corn
+Peaty,Rice
+Peaty,Ginger
+Peaty,Sugarcane
+Peaty,Tea
+Peaty,Areca Nut
+Saline,Rice
+Saline,Barley
+Saline,Millet
+Saline,Oilseeds
+Saline,Date Palm
+Chalky,Wheat
+Chalky,Barley
+Chalky,Oats
+Chalky,Grapes
+Chalky,Olive

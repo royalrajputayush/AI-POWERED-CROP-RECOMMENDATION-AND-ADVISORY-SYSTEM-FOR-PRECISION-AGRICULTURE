@@ -1,0 +1,36 @@
+# Crop Advisory System - Python Dependencies
+# Data-Driven Crop Recommendation System Requirements
+
+# Core Data Science Libraries
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning Libraries
+scikit-learn>=1.3.0
+
+# Data Visualization Libraries
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: Jupyter Notebook Support (for development/analysis)
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Optional: Advanced Visualization (if needed)
+plotly>=5.15.0
+
+# Optional: Web Interface (for future deployment)
+flask>=2.3.0
+streamlit>=1.25.0
+
+# Optional: Data Export/Import
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# Development and Testing (optional)
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.0.0
+
+# Note: The main demo_crop_system.py works with Python standard library only
+# These packages are needed for the advanced crop_recommendation.py version
